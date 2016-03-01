@@ -1,34 +1,49 @@
-body {
-  background: #f9e933;
-}
 
+}
 header, main, footer {
   min-width: 855px;
+  font-family: "Biryani", sans-serif;
 }
 
 header .container, main .container, footer .container {
   max-width: 855px;
   margin: auto;
+  
 }
 
 header {
-  background: white;
+  background: ghostwhite;
+  border-bottom: 1px solid ;
+  border-bottom-color: gray;
+  padding: 30px;
+  overflow: auto;
+}
+
+main{
+  background: ghostwhite;
+  padding: 30px;
+  overflow: auto;
+}
+
+footer{
+  position: relative;
+  margin-top: 50px;
+  background: #f9e933;
+  padding: 30px;
   overflow: auto;
 }
 
 header h1 {
   float: left;
   width: 570px;
+  font-size: 60px;
+  color:brown;
+  font-weight: 700;
+  font-style: oblique;
 }
-
 header nav {
   float: right;
   width: 285px;
-}
-
-main {
-  background: white;
-  overflow: auto;
 }
 
 main .left {
@@ -45,8 +60,98 @@ footer .left {
   float: left;
   width: 570px;
 }
-
-footer .sitemap {
+footer .right {
   float: right;
   width: 285px;
+}
+
+
+h2{
+  font-size: 29px;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 22px;
+  font-weight:normal;
+}
+
+h5{
+  font-size: 18px;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+
+ul .left-list{
+  width:100px;
+  float:left
+}
+
+ul .right-list{
+  width:150px;
+  float:right;
+}
+
+.row2{
+  padding-top:30px;
+}
+
+#footer-amazeriffic {
+  color:darkred;
+  font-size: 18px;
+  font-style: oblique;
+}
+
+li{
+  padding-bottom: 20px;
+}
+
+#faqimage{
+  max-width: 200px;
+}
+
+a{
+  color:tomato;
+  text-decoration: none;
+}
+
+a:visited{
+  color:darkviolet;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.row2 #left{
+  float:left;
+  padding-right: 100px;
+  border-right: 1px solid;
+  border-spacing: inherit;
+}
+.row2 #right{
+  float:right;
+  width: 400px;
+}
+#submit{
+  border-radius: 8px;
+  font-size: 20px;
+  background-color: cornflowerblue; 
+}
+#github{
+  border-radius: 8px;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+}
+#google{
+  border-radius: 8px;
+  font-size: 30px;
+  background-color: maroon;
+  color: white;
+}
+
+.textbox{
+  border-radius: 8px;
+  font-size: 20px;
 }
