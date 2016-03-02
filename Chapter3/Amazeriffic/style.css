@@ -1,48 +1,38 @@
-header, main, footer {
+header {
   min-width: 855px;
   font-family: "Biryani", sans-serif;
-}
-
-header .container, main .container, footer .container {
-  max-width: 855px;
-  margin: auto;
-  
-}
-
-header {
-  background: ghostwhite;
-  border-bottom: 1px solid ;
-  border-bottom-color: gray;
-  padding: 30px;
   overflow: auto;
+  background: ghostwhite;
+  border-bottom: 1px solid gray;
+  padding: 30px;
 }
-
 main{
+  min-width: 855px;
+  font-family: "Biryani", sans-serif;
+  overflow: auto;
   background: ghostwhite;
   padding: 30px;
-  overflow: auto;
 }
-
 footer{
+  min-width: 855px;
+  font-family: "Biryani", sans-serif;
+  overflow: auto;
   position: relative;
   background: #f9e933;
   padding: 30px;
-  overflow: auto;
 }
-
-header h1 {
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+header .headerleft {
   float: left;
   width: 570px;
-  font-size: 60px;
-  color:brown;
-  font-weight: 700;
-  font-style: oblique;
 }
 header nav {
-  float: right;
-  width: 285px;
+  width: auto;
+  padding-bottom:20px;
 }
-
 main .left {
   float: left;
   width: 570px;
@@ -61,93 +51,86 @@ footer .right {
   float: right;
   width: 285px;
 }
-
-
+h1{
+  font-size: 300%;
+  color:brown;
+  font-weight: 700;
+  font-style: oblique;
+}
 h2{
-  font-size: 29px;
+  font-size: 200%;
   font-weight: 600;
 }
-
 h3{
-  font-size: 22px;
+  font-size: 180%;
   font-weight:normal;
 }
-
 h5{
-  font-size: 18px;
+  font-size: 120%;
   font-weight: 900;
   padding-bottom: 10px;
 }
-
-.left-list{
-  width:100px;
-  float:left
-}
-
-.right-list{
-  width:150px;
-  float:right;
-}
-
-.row2{
-  padding-top:30px;
-}
-
-#footer-amazeriffic {
-  color:darkred;
-  font-size: 18px;
-  font-style: oblique;
-}
-
-li{
-  padding-bottom: 10px;
-}
-
-#faqimage{
-  max-width: 200px;
-}
-
 a{
   color:tomato;
   text-decoration: none;
 }
-
 a:visited{
   color:darkviolet;
 }
-
 a:hover{
   text-decoration: underline;
 }
-
-.row2 #left{
+.left-list{
+  width:100px;
+  float:left
+}
+.right-list{
+  width:150px;
+  float:right;
+}
+.row2{
+  padding-top:30px;
+}
+.footer-amazeriffic {
+  color:darkred;
+  font-size: 18px;
+  font-style: oblique;
+}
+li{
+  padding-bottom: 10px;
+}
+.faqimage{
+  max-width: 200px;
+}
+.row2 .leftrow{
   float:left;
   padding-right: 100px;
   border-right: 1px solid;
   border-spacing: inherit;
+  padding-bottom: 100px;
 }
-.row2 #right{
+.row2 .rightrow{
   float:right;
   width: 400px;
+  padding-bottom: 100px;
 }
-#submit{
+.submit{
   border-radius: 8px;
   font-size: 20px;
   background-color: cornflowerblue; 
 }
-#github{
+.github{
   border-radius: 8px;
   font-size: 30px;
   background-color: black;
   color: white;
 }
-#google{
+.google{
   border-radius: 8px;
   font-size: 30px;
   background-color: maroon;
   color: white;
 }
-
 .textbox{
   border-radius: 8px;
   font-size: 20px;
